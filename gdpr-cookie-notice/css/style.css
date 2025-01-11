@@ -1,0 +1,37 @@
+#gdpr-cookie-notice {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #1A314F; /* Varsayılan arka plan rengi */
+    color: #ffffff; /* Varsayılan metin rengi */
+    text-align: center;
+    padding: 15px 0;
+    z-index: 9999;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+#gdpr-cookie-notice p {
+    margin: 0;
+    display: inline;
+}
+
+#gdpr-cookie-notice a {
+    color: #ffffff; /* Varsayılan bağlantı rengi */
+    text-decoration: underline;
+}
+
+#gdpr-cookie-notice button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    background: #ffffff; /* Varsayılan buton arka plan rengi */
+    color: #1A314F; /* Varsayılan buton metin rengi */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#gdpr-cookie-notice button:hover {
+    background: #bbc2cb; /* Varsayılan hover rengi */
+}
